@@ -1,11 +1,11 @@
+#Mateo Bodon's File
+
 def decode():
     pass #for my teamate :)
 
 def encoder(password):
     encoded_chars = [str((int(char) + 3) % 10) for char in password]
     return ''.join(encoded_chars)
-
-
 
 def main():
     while True:
